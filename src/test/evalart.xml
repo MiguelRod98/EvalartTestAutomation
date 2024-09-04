@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="EvalartSuite" verbose="1" thread-count="1" parallel="tests">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="username" value="909203"></parameter>
+    <parameter name="password" value="10df2f32286b7120My0zLTMwMjkwOQ==30e0c83e6c29f1c3"></parameter>
+    <test name="EvalartText">
+        <classes>
+            <class name="MatrixButtonTest"></class>
+        </classes>
+    </test>
+</suite>
